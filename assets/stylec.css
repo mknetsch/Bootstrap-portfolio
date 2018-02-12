@@ -1,0 +1,60 @@
+#header {
+    background-color: #4aaaa5;
+    padding: 20px;
+    font-size: 30px;
+    border: 2px;
+    border-color: #cccccc;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+.link {
+    border-style: bold;
+    padding: 10px;
+    border-width: 1px;
+    font-size: 23px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;    
+}
+#contact {
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #dddddd;
+}
+h1 {
+    color: teal;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.social1, .social2, .social3 {
+    padding: 10px;
+}
+.social1:visited, .social2:visited, .social3:visited {
+    color: black;
+}
+body {
+    background-image: url(images/vintage-concrete.png)
+}
+#imput {
+    margin-bottom: 12px;
+}
+#text {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777
+}
+#footer {
+    position:fixed;
+    bottom: 0; 
+    text-align: center;
+    width: 100%;
+}
+
+#panel {
+    margin: 0px;
+    background-color: #666666;
+}
+    
+@media screen and (max-width: 768px) {
+    #navbar {
+        width: 100%;
+    
+    }
+}

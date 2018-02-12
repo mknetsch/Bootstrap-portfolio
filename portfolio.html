@@ -1,49 +1,100 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">  
-    <link rel="stylesheet" type="reset"  href="assets/css/reset.css">          
-    <link rel="stylesheet" type="text/css" href="assets/css/stylep.css">
-                
-<title>Portfolio</title>
-
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link href="assets/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylep.css">
+    <title>Portfolio</title>
 </head>
-                
+
 <body>
-    
-    <header>Matthew Knetsch</header>
-
-    <div id="portfolio">
-
-        <h1>Portolio</h1>
-        <hr>
-        <img src="assets/images/1.jpg" class="portfolio-pics">
-        <img src="assets/images/2.jpg" class="portfolio-pics">
-        <img src="assets/images/3.jpg" class="portfolio-pics">
-        <img src="assets/images/4.jpg" class="portfolio-pics">
-        <img src="assets/images/5.jpg" class="portfolio-pics">
-
-</div>
-<div id="links">
-<a href="index.html" class="link">About</a>
-<a href="#" class="link" class="link">Portfolio</a>
-<a href="contact.html" class="link">Contact</a>
-</div>
-    
-<div id="connect">
-    <h2>Connect with Me</h2>
-    <hr>
-    <a href="https://github.com/luckybaldrick" target="_blank" class="social1"><i class="fab fa-github fa-4x"></i></a>
-    <a href="https://www.linkedin.com/in/matthew-knetsch-854774a7/" target="_blank" class="social2"><i class="fab fa-linkedin fa-4x"></i></a>
-    <a href="https://stackoverflow.com/users/9154783/matthew-knetsch" target="_blank"class="social3"><i class="fab fa-stack-overflow fa-4x" ></i></a>
-
-</div>
-
-<img src="assets/images/vintage-concrete.png" id="background-image">
-
-<footer>©Copyright 2018 Matthew Knetsch</footer>
-
+    <nav class="navbar navbar-default" id="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" id="header">Matthew Knetsch</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" class="link">About</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html" class="link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <div class="wrapper">
+        <div class="container" id="main-body">
+            <div class="row">
+                <div class="col-md-8 col-sm-12 col-xs-12" id="portfolio">
+                    <h1>Portfolio</h1>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/images/1.jpg" class="portfolio-pics">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="assets/images/2.jpg" class="portfolio-pics">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/images/3.jpg" class="portfolio-pics">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="assets/images/4.jpg" class="portfolio-pics">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/images/5.jpg" class="portfolio-pics">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="panel panel-default" id="sidebar">
+                        <div class="panel-heading">
+                            <h1>Connect with Me</h1>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <a href="https://github.com/luckybaldrick" target="_blank" class="social1">
+                                        <i class="fab fa-github fa-5x"></i>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="https://www.linkedin.com/in/matthew-knetsch-854774a7/" target="_blank" class="social2">
+                                        <i class="fab fa-linkedin fa-5x"></i>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="https://stackoverflow.com/users/9154783/matthew-knetsch" target="_blank" class="social3">
+                                        <i class="fab fa-stack-overflow fa-5x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="footer">
+        <div class="panel panel-default" id="panel">
+            <div class="panel-body">
+                Copywrite @ Matthew Knetsch 2018
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
